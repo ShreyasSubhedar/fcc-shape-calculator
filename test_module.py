@@ -32,7 +32,6 @@ class UnitTests(unittest.TestCase):
         expected = "Square(side=5)"
         self.assertEqual(actual, expected, 'Expected string representation of square to be "Square(side=5)"')
 
-    def test_area(self):
         actual = self.rect.get_area()
         expected = 18
         self.assertEqual(actual, expected, 'Expected area of rectangle to be 18')
