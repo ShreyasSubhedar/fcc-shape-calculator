@@ -27,6 +27,8 @@ class Rectangle:
       output+="*"*self.width+"\n"
     return output
 
+  def get_amount_inside(self,obj):
+    return (self.width//obj.width)*(self.height//obj.height)
 
   def __str__(self):
     return f"Rectangle(width={self.width}, height={self.height})"
